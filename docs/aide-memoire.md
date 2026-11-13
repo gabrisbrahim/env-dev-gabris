@@ -115,3 +115,20 @@
 | `git --version` | Affiche le numéro de version d'un outil | `node --version` |
 | `ls --help` | Affiche l'aide de la commande | `cp --help` |
 | `clear` | Efface l'écran du terminal | `clear` |
+
+
+## Git : commandes de base
+
+| Commande | Ce qu'elle fait | Exemple |
+| -------- | --------------- | ------- |
+| `git init` | Transforme le dossier courant en dépôt Git | `git init` |
+| `git status` | Affiche l'état des fichiers (nouveaux, modifiés, prêts pour commit) | `git status` |
+| `git add <fichier>` | Prépare un fichier pour le commit (l'ajoute au panier) | `git add README.md` |
+| `git add .` | Prépare tous les fichiers modifiés et nouveaux | `git add .` |
+| `git commit -m "message"` | Enregistre une sauvegarde avec un message explicatif | `git commit -m "Ajoute le README"` |
+| `git log --oneline` | Affiche l'historique condensé des commits (un par ligne) | `git log --oneline` |
+| `git log` | Affiche l'historique complet avec auteur, date et description | `git log` |
+| `git diff` | Montre les différences de code non encore préparées | `git diff` |
+| `git restore <fichier>` | Annule les modifications d'un fichier avant qu'elles soient préparées | `git restore JOURNAL.md` |
+| `git push` | Envoie les commits locaux vers le dépôt distant GitHub | `git push` |
+| `git pull` | Récupère et intègre les nouveaux commits depuis GitHub | `git pull` |
