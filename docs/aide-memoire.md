@@ -144,3 +144,21 @@
 | `git merge <branche>` | Fusionne la branche indiquée dans la branche active | `git merge ajout-section` |
 | `git branch -d <branche>` | Supprime la branche indiquée une fois fusionnée | `git branch -d ajout-section` |
 | `git log --oneline --graph --all` | Affiche l'historique visuel de toutes les branches | `git log --oneline --graph --all` |
+
+
+## Git : résolution des conflits
+
+Un conflit survient lorsque deux branches modifient les mêmes lignes d'un fichier avec des contenus différents.
+
+### Marqueurs de conflit insérés par Git
+- `<<<<<<< HEAD` : début du conflit, version présente sur la branche courante.
+- `=======` : ligne de démarcation entre les deux propositions.
+- `>>>>>>> <branche>` : fin du conflit, version apportée par la branche à fusionner.
+
+### Procédure de résolution en 4 étapes
+1. Ouvrir le fichier dans VS Code pour localiser les marqueurs.
+2. Choisir la version à conserver (ou combiner les deux) et supprimer les marqueurs `<<<<<<<`, `=======`, `>>>>>>>`.
+3. Préparer le fichier résolu avec `git add <fichier>`.
+4. Enregistrer la résolution avec `git commit -m "Résout le conflit sur ..."` .
+
+En cas de problème pendant la fusion : `git merge --abort` permet d'annuler et revenir à l'état initial.
