@@ -36,3 +36,10 @@
 - **Décision :** héberger le dépôt distant sur GitHub.
 - **Autres possibilités :** GitLab, Bitbucket, ou conserver le dépôt uniquement en local sur ma machine.
 - **Raison :** GitHub est la plateforme standard pour le versionnement et la collaboration open source. Elle permet d'héberger le code en toute sécurité, de partager le travail avec les collègues et le professeur, et d'utiliser les pull requests pour réviser le code avant intégration.
+
+
+## 2026-11-21 – Organisation du travail avec les branches
+
+- **Décision :** isoler les développements et corrections sur des branches thématiques dédiées avant toute intégration.
+- **Autres possibilités :** modifier directement le code sur la branche principale `main`.
+- **Raison :** les branches protègent la stabilité de `main` en fournissant un espace d'expérimentation isolé. Elles permettent de travailler sur plusieurs tâches en parallèle sans risque et simplifient la relecture du code.
