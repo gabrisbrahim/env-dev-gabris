@@ -61,7 +61,8 @@ Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
 | `scripts/installer.sh` | Installe les outils dans Ubuntu |
 | `scripts/verifier.sh` | Vérifie que tout est prêt |
 
-## Historique  Ce dossier est suivi avec Git depuis le sous-module 2. 
+## Historique
+
 Ce dossier est suivi avec Git depuis le sous-module 2.
 
 ## Guide d'utilisation du projet
