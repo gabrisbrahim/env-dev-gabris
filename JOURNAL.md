@@ -29,3 +29,10 @@
 - **Décision :** écrire deux scripts Bash `scripts/installer.sh` et `scripts/verifier.sh`.
 - **Autres possibilités :** retaper toutes les commandes à la main à chaque fois ou les copier-coller une par une depuis le README.
 - **Raison :** avec un script, on ne fait pas de faute de frappe, on installe tout en une seule commande et mon binôme peut vérifier tout de suite si son poste est prêt.
+
+
+## 2026-11-20 – Hébergement du dépôt : GitHub
+
+- **Décision :** héberger le dépôt distant sur GitHub.
+- **Autres possibilités :** GitLab, Bitbucket, ou conserver le dépôt uniquement en local sur ma machine.
+- **Raison :** GitHub est la plateforme standard pour le versionnement et la collaboration open source. Elle permet d'héberger le code en toute sécurité, de partager le travail avec les collègues et le professeur, et d'utiliser les pull requests pour réviser le code avant intégration.
