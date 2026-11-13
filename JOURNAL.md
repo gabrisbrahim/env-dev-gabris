@@ -43,3 +43,10 @@
 - **Décision :** isoler les développements et corrections sur des branches thématiques dédiées avant toute intégration.
 - **Autres possibilités :** modifier directement le code sur la branche principale `main`.
 - **Raison :** les branches protègent la stabilité de `main` en fournissant un espace d'expérimentation isolé. Elles permettent de travailler sur plusieurs tâches en parallèle sans risque et simplifient la relecture du code.
+
+
+## 2026-11-22 – Collaboration avec les Pull Requests
+
+- **Décision :** utiliser systématiquement les Pull Requests (PR) pour intégrer du travail d'équipe.
+- **Autres possibilités :** pousser directement sur main ou envoyer des archives par email.
+- **Raison :** la Pull Request permet une relecture rigoureuse (revue de code) par un pair. Elle évite d'introduire des erreurs sur la branche principale et garantit un échange constructif au sein de l'équipe avant toute fusion.
