@@ -132,3 +132,15 @@
 | `git restore <fichier>` | Annule les modifications d'un fichier avant qu'elles soient préparées | `git restore JOURNAL.md` |
 | `git push` | Envoie les commits locaux vers le dépôt distant GitHub | `git push` |
 | `git pull` | Récupère et intègre les nouveaux commits depuis GitHub | `git pull` |
+
+
+## Git : gestion des branches
+
+| Commande | Ce qu'elle fait | Exemple |
+| -------- | --------------- | ------- |
+| `git branch` | Liste toutes les branches locales (* indique la branche courante) | `git branch` |
+| `git switch -c <branche>` | Crée une nouvelle branche et bascule dessus | `git switch -c ajout-section` |
+| `git switch <branche>` | Bascule sur une branche existante | `git switch main` |
+| `git merge <branche>` | Fusionne la branche indiquée dans la branche active | `git merge ajout-section` |
+| `git branch -d <branche>` | Supprime la branche indiquée une fois fusionnée | `git branch -d ajout-section` |
+| `git log --oneline --graph --all` | Affiche l'historique visuel de toutes les branches | `git log --oneline --graph --all` |
