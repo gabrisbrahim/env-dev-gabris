@@ -63,3 +63,18 @@ Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
 
 ## Historique  Ce dossier est suivi avec Git depuis le sous-module 2. 
 Ce dossier est suivi avec Git depuis le sous-module 2.
+
+## Guide d'utilisation du projet
+
+1. **Cloner le projet :**
+   ```bash
+   git clone https://github.com/gabrisbrahim/env-dev-gabris.git
+   cd env-dev-gabris
+   ```
+2. **Lancer les scripts d'environnement :**
+   ```bash
+   ./scripts/installer.sh
+   ./scripts/verifier.sh
+   ```
+3. **Consulter l'aide-mémoire :**
+   Le fichier `docs/aide-memoire.md` répertorie toutes les commandes nécessaires pour Linux, Git et les branches.
