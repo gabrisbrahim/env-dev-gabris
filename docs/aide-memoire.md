@@ -180,3 +180,7 @@ En cas de problème pendant la fusion : `git merge --abort` permet d'annuler et 
 5. **Revue de code :** relecture critique et bienveillante, commentaires constructifs et approbation (*Approve*)
 6. **Fusionner :** bouton *Merge pull request* puis suppression de la branche
 7. **Synchroniser en local :** `git switch main && git pull`
+
+
+### Astuce de visualisation Git
+`git log --oneline --graph --all` permet d'afficher l'arborescence complète des commits et des branches sous forme graphique dans le terminal.
