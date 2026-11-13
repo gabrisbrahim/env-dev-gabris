@@ -1,4 +1,4 @@
-# env-dev-gabris
+# env-dev-gabris – Mon environnement de développement
 
 Environnement de développement de GABRIS Brahim – B1 DEV, IFRAN.
 Fiche de mon poste de travail sous Ubuntu avec WSL et guide d'installation.
