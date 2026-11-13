@@ -162,3 +162,21 @@ Un conflit survient lorsque deux branches modifient les mêmes lignes d'un fichi
 4. Enregistrer la résolution avec `git commit -m "Résout le conflit sur ..."` .
 
 En cas de problème pendant la fusion : `git merge --abort` permet d'annuler et revenir à l'état initial.
+
+
+## Git & GitHub : travail collaboratif et Pull Requests
+
+| Commande | Ce qu'elle fait | Exemple |
+| -------- | --------------- | ------- |
+| `git clone <url>` | Télécharge un dépôt distant complet sur votre ordinateur | `git clone https://github.com/binome/env-dev.git` |
+| `git pull` | Récupère et intègre les nouveaux commits distants | `git pull` |
+| `git push -u origin <branche>` | Envoie une branche locale vers GitHub et configure le suivi distant | `git push -u origin astuce-git` |
+
+### Le circuit d'une Pull Request
+1. **Créer une branche de travail :** `git switch -c ma-branche`
+2. **Développer et enregistrer :** modifications puis `git add` et `git commit`
+3. **Publier la branche :** `git push -u origin ma-branche`
+4. **Ouvrir la Pull Request sur GitHub :** donner un titre clair et une description détaillée
+5. **Revue de code :** relecture critique et bienveillante, commentaires constructifs et approbation (*Approve*)
+6. **Fusionner :** bouton *Merge pull request* puis suppression de la branche
+7. **Synchroniser en local :** `git switch main && git pull`
