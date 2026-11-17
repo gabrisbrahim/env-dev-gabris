@@ -79,3 +79,5 @@ Ce dossier est suivi avec Git depuis le sous-module 2.
    ```
 3. **Consulter l'aide-mémoire :**
    Le fichier `docs/aide-memoire.md` répertorie toutes les commandes nécessaires pour Linux, Git et les branches.
+
+# env-dev-kone – Mon environnement de développement (B1 DEV, IFRAN)
